@@ -1,7 +1,12 @@
 import "./App.css";
+import Feed from "./Pages/Feed/Feed";
 
 function App() {
-  return <div>app</div>;
+  return (
+    <div>
+      <Feed />
+    </div>
+  );
 }
 
 export default App;
